@@ -4,6 +4,7 @@
 
 
 def positive_sum(arr)
+  #the first line here works too
   #arr.find_all{|a| a>0}.reduce(0, :+)
   arr.select(&:possitive?).reduce(0, :+)
 end
